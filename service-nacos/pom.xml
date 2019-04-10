@@ -11,30 +11,21 @@
     </parent>
 
     <groupId>cn.xiaoyh</groupId>
-    <artifactId>service-zuul</artifactId>
+    <artifactId>service-nacos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
-    <name>service-zuul</name>
+    <name>service-nacos</name>
     <description>Demo project for Spring Boot</description>
-
-
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
     </dependencies>
-    
 </project>
